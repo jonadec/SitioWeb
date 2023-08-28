@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="inf.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSite</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Sistemas Operativos</a>
+
+         <nav class="navbar">
+            <a href ="index.html">Inicio</a>
+            <a href="#" class="active">Información</a>
+            <a href="https://github.com/jonadec/WebSite_OS/tree/df9f7c0e50f682fe48cdd1561b964343532d3134">Códigos</a>
+         </nav>
+    </header>
+
+    <section class="home"> 
+        <div class="home-content">
+            
+            <h2>¿Qué es un sistema operativo?</h2>
+            <p>Software principal de todo dispositivo electrónico 
+            que administra todo el entorno siendo intermediario 
+            entre el hardware, aplicaciones y usuario.</p>
+            <img src="so.jpg">
+            <p> </p>
+            <p> </p>
+            <h2>Funciones y objetivos del sistema operativo</h2>
+            <p>El sistema operativo es el único programa que interactúa 
+                directamente con el hardware de la computadora.<br>
+                Sus funciones primarias son:</p>
+            <h3>-Abstracción</h3>
+            <p>Los programas no deben tener que preocuparse de los detalles de acceso a hardware, o de la configuración particular de una computadora.
+                El sistema operativo se encarga de proporcionar una serie de abstracciones para que los programadores puedan enfocarse en resolver las
+                 necesidades particulares de sus usuarios.<br>Un ejemplo de tales abstracciones es que la información está organizada en archivos y 
+                 directorios (en uno o muchos dispositivos de almacenamiento).<br>Memoria, espacio de almacenamiento, tiempo de procesamiento, etc.
+                 Los diferentes procesos que se ejecuten en él compiten por ellos. el sistema operativo puede implementar políticas que los asignen de 
+                 forma efectiva y acorde a las necesidades establecidas para dicho sistema.
+            </p>
+            <h3>-Aislamiento</h3>
+            <p>En un sistema multiusuario y multitarea cada proceso y cada usuario no tendrá que preocuparse por otros que estén usando el mismo sistema.</p>
+
+            <h3>-Proceso por lotes (batch processing)</h3>
+            <p>En los años cincuenta aparecieron los dispositivos perforadores/lectores de tarjetas de papel, los programadores entregaban su lote de 
+                tarjetas perforadas (en inglés, batches) a los operadores, quienes las alimentaban a los dispositivos lectores, que lo cargaban en 
+                memoria en un tiempo razonable, iniciaban y monitoreaban la ejecución, y producían los resultados.</p>
+            <p> </p>
+            <h2>Clasificación de los sistemas operativos</h2>
+            <h3>-Sistemas operativos monousuarios</h3>
+            <p>Soportan a un usuario a la vez, sin importar el número de procesadores que tenga la computadora o el número de procesos o tareas 
+                que el usuario pueda ejecutar en un mismo instante de tiempo  (computadoras personales).</p>
+            
+            <h3>-Sistemas operativos multiusuarios</h3>
+            <p>Dan servicio a más de un usuario a la vez, ya sea por medio de varias</p>
+
+            <h3>-Sistemas operativos mono tareas</h3>
+            <p>Sólo permiten una tarea a la vez por usuario.</p>
+
+            <h3>-Sistemas operativos multitareas</h3>
+            <p>Un sistema operativo multitarea es aquél que le permite al usuario estar realizando varias labores al mismo tiempo.</p>
+
+            <h3>-Sistemas operativos uniproceso</h3>
+            <p>Un sistema operativo uniproceso es aquél capaz de manejar solamente un procesador de la computadora, de manera que si la computadora 
+                tuviese más de uno le sería inútil. El ejemplo más típico de este tipo de sistemas es el DOS.</p>
+            
+            <h3>Sistemas operativos multiproceso</h3>
+            <p>Un sistema operativo multiproceso se refiere al número de procesadores del sistema, que es más de uno y éste es capaz de usarlos 
+                todos para distribuir su carga de trabajo.</p>
+                <h2>Modelos de Sistemas Operativos</h2>
+
+            <h3>-Modelo para un solo usuario</h3>
+            <h3>-Modelo para una red</h3>
+            <p>Un sistema operativo personal o de usuario único, donde un individuo utiliza una computadora o dispositivos para sus propias tareas y actividades.
+            Proporciona herramientas para administrar archivos, ejecutar aplicaciones y realizar tareas en la computadora de manera cómoda y segura.</p>
+            
+            <h3>Estructura de un modelo para un solo usuario</h3>
+            <p></p>
+            <h4>Kernel del sistema operativo</h4>
+            <ul>
+                <li>Es el corazón del sistema operativo</li>
+                <li>Administra los recursos del hardware, como memoria y CPU</li>
+                <li>Proporciona una interfaz para que las aplicaciones y el usuario interactúen con el sistema.</li>
+            </ul>
+            <p></p>
+            <h4>Interfaz de usuario</h4>
+            <ul>
+                <li>Ofrece una interfaz de usuario amigable para que el usuario interactúe con el sistema.</li>
+                <li>Esto puede ser una interfaz gráfica de usuario (GUI)</li>
+                <li>Una interfaz de línea de comandos (CLI)</li>
+            </ul>
+            <p></p>
+            <h4>Gestión de Archivos</h4>
+            <p>El S.O maneja la organización y el acceso a los archivos y directorios.
+            Los usuarios pueden crear, abrir, modificar, mover y eliminar archivos utilizando comandos o una interfaz gráfica.</p>
+            <p></p>
+            <h4>Gestión de Procesos</h4>
+            <p>El sistema operativo administra los procesos en ejecución.
+            Puede haber múltiples aplicaciones en ejecución al mismo tiempo.
+            El S.O se encarga de programar y asignar tiempo de SPW a cada proceso.</p>
+            
+            <h4>Gestión de Memoria</h4>
+            <p>Administra la memoria del sistema, asegurando que las aplicaciones tengan suficiente espacio para ejecutarse.
+            Esto puede incluir administración de memoria virtual y técnicas de paginación.</p>
+            
+            <h4>Gestión de dispositivos</h4>
+            <p>El sistema operativo maneja la comunicación entre las aplicaciones y los dispositivos periféricos E/S.</p>
+            
+            <h4>Seguridad y autenticación</h4>
+            <p>Proporciona mecanismos de seguridad para proteger los datos del usuario y su privacidad.
+            (Contraseñas, sistemas de archivos encriptados y cortafuegos básicos).</p>
+            
+            <h4>Redes</h4>
+            <p>Proporciona capacidades de red para permitir que el usuario se conecte a internet y otros dispositivos en red.</p>
+            
+            <h4>Actualizaciones y Mantenimiento</h4>
+            <p>Puede proporcionar actualizaciones automáticas y herramientas de mantenimiento para asegurarse de que el sistema esté actualizado y funcionando correctamente.</p>
+            
+            <h4>Aplicaciones</h4>
+            <p>Puede incluir aplicaciones preinstaladas o proporcionar una tienda de aplicaciones donde el usuario puede descargar e instalar programas adicionales.</p>
+            
+            
+            
+
+            <h2>Memoria</h2>
+            <h3>Asignación de espacio contiguo</h3>
+            <ul>
+            <li>Asignación estática de memoria particionada</li>
+            <li>Asignación dinámica de memoria particionada</li>
+            <li>Protección y uso compartido</li>
+            </ul>
+            <p></p>
+            <h3>Asignación de espacio no contiguo</h3>
+            <ul>
+            <li>Segmentación</li>
+            <li>Paginación</li>
+            <li>Segmentación con paginación</li>
+            </ul>
+            <p></p>
+
+            <h3>Gestión de memoria virtual</h3>
+            <ul>
+            <li>Introducción</li>
+            <li>Paginación por demanda</li>
+            <li>Algoritmos de reemplazo de páginas</li>
+            <li>Algoritmos de asignación de marcos de página</li>
+            </ul>
+            <p></p>
+
+            <h2>ANTECEDENTES</h2>
+            <ul>
+            <li>Un programa debe cargarse en memoria desde disco y colocarse dentro de un proceso para que se ejecute</li>
+            <li>La memoria principal y los registros son los únicos dispositivos de almacenamiento a los que puede acceder la CPU directamente</li>
+            <li>El acceso a registro es muy rápido; supone un ciclo de CPU (o menos)</li>
+            <li>El acceso a memoria principal puede durar varios ciclos</li>
+            <li>Las memorias caché se colocan entre la memoria principal y la CPU para acelerar el acceso a la información</li>
+            </ul>
+</body>
+</html>
+        </div>
+       
+    </section>
+
+
+   
+</body>
+</html>
