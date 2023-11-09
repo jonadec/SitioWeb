@@ -153,3 +153,39 @@ body{
     height: 300px;
     float: right;
 }
+
+.news-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribuye los elementos en tres columnas */
+}
+
+.news-card {
+    flex: 0 0 calc(30% - 20px); /* Ajusta el ancho de cada columna según tus necesidades */
+    margin: 0 10px 20px; /* Espacio entre las columnas y debajo de cada tarjeta de noticias */
+    background: #081b29; /* Color de fondo para cada tarjeta de noticias */
+    padding: 20px; /* Espacio interno en cada tarjeta de noticias */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para cada tarjeta de noticias */
+    color:  #ededed;
+}
+.news-card img {
+    max-width: 100%; /* Ajusta el ancho máximo de las imágenes al 100% del contenedor */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+}
+html, body {
+    scroll-behavior: smooth;
+}
+.news-cards a{
+    font-size: 18px;
+    color: #00abf0 ;
+    text-decoration: none;
+    transition: .3s;
+
+}
+
+.news-cards a:hover,
+.news-cards a.active{
+    color: #ededed;
+
+}
